@@ -1,4 +1,4 @@
-from Grafos import graph_plot
+from grafos import graph_plot
 
 select = 0
 
