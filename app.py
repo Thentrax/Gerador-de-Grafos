@@ -1,7 +1,6 @@
 from Grafos import graph_plot
 
 select = 0
-grafo = {}
 
 while select != 4:
 
@@ -30,7 +29,7 @@ while select != 4:
             print(add_vertices)
 
             # Verifica se já existe o vértice
-            if(add_vertices != '0'):
+            if (add_vertices != '0'):
                if (add_vertices in vertices):
                   print('O vértice já existe.')
                   pass
